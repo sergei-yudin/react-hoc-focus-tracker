@@ -1,1 +1,84 @@
-:root{font-family:Inter,Arial,sans-serif;color:#202a38;background:#edf2f7}*{box-sizing:border-box}body{margin:0}main{max-width:700px;margin:auto;padding:70px 24px}header span{font-size:12px;font-weight:800;color:#e26b36;text-transform:uppercase;letter-spacing:.12em}h1{font-size:44px;margin:8px 0}header p{color:#6f7c8e}.focus-root{margin:30px 0}.editor{display:grid;gap:20px;background:#fff;border:3px solid transparent;border-radius:18px;padding:30px;box-shadow:0 16px 40px #34445b1a;transition:.2s}.editor.focused{border-color:#e26b36;box-shadow:0 0 0 6px #e26b3620}.status{font-weight:750;color:#7c8796}.focused .status{color:#d3541d}label{display:grid;gap:8px;font-weight:700}input{height:48px;border:1px solid #bdc7d2;border-radius:9px;padding:0 13px;font:inherit}.editor button,.outside{border:0;border-radius:9px;padding:12px 18px;font:inherit;font-weight:700;cursor:pointer}.editor button{background:#e26b36;color:#fff;justify-self:start}.outside{background:#dfe5ec;color:#536071}
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #202a38;
+  background: #edf2f7;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 700px;
+  margin: auto;
+  padding: 70px 24px;
+}
+header span {
+  font-size: 12px;
+  font-weight: 800;
+  color: #e26b36;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+h1 {
+  font-size: 44px;
+  margin: 8px 0;
+}
+header p {
+  color: #6f7c8e;
+}
+.focus-root {
+  margin: 30px 0;
+}
+.editor {
+  display: grid;
+  gap: 20px;
+  background: #fff;
+  border: 3px solid transparent;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 16px 40px #34445b1a;
+  transition: 0.2s;
+}
+.editor.focused {
+  border-color: #e26b36;
+  box-shadow: 0 0 0 6px #e26b3620;
+}
+.status {
+  font-weight: 750;
+  color: #7c8796;
+}
+.focused .status {
+  color: #d3541d;
+}
+label {
+  display: grid;
+  gap: 8px;
+  font-weight: 700;
+}
+input {
+  height: 48px;
+  border: 1px solid #bdc7d2;
+  border-radius: 9px;
+  padding: 0 13px;
+  font: inherit;
+}
+.editor button,
+.outside {
+  border: 0;
+  border-radius: 9px;
+  padding: 12px 18px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.editor button {
+  background: #e26b36;
+  color: #fff;
+  justify-self: start;
+}
+.outside {
+  background: #dfe5ec;
+  color: #536071;
+}
